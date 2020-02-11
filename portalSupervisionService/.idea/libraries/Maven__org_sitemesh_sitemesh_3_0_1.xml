@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.sitemesh:sitemesh:3.0.1">
+    <CLASSES>
+      <root url="jar://F:/project/repository_pinyougou3/org/sitemesh/sitemesh/3.0.1/sitemesh-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://F:/project/repository_pinyougou3/org/sitemesh/sitemesh/3.0.1/sitemesh-3.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://F:/project/repository_pinyougou3/org/sitemesh/sitemesh/3.0.1/sitemesh-3.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

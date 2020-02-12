@@ -1,0 +1,43 @@
+#data
+spring.datasource.url=jdbc:mysql://172.18.43.132:60001/cms?useUnicode=true&characterEncoding=utf-8
+#server
+server.port=8099
+#log 
+logging.path=D:/LES-Java/dev/log
+
+#文件上传地址
+upload-path=D:/LES-Java/dev/trs/uploadFile/
+upload-temp-path=D:/LES-Java/dev/trs/uploadFile/temp/
+
+#login
+login.address=http://p.oa.unionpay.com/portalMgmt/
+
+#httpurl
+http.liucheng.readToDo=http://uatworkflownew.oa.unionpay.com/default/oawf/httptrs/dubanhttp!queryTodoTaskList.action
+http.liucheng.submit=http://uatworkflownew.oa.unionpay.com/default/oawf/httptrs/dubanhttp!doOANext.action
+http.liucheng.finduser=http://uatworkflownew.oa.unionpay.com/default/oawf/httptrs/basehttp!queryHandlerPerson.action
+http.liucheng.doApprove=http://uatworkflownew.oa.unionpay.com/default/oawf/httptrs/basehttp!doApprove.action
+http.liucheng.findOverseeUsername=http://p.oa.unionpay.com/portalMgmt/oa/common/getUserInfoByRole/49888
+
+http.liucheng.smskey=liucheng
+http.liucheng.appkey=duban_sys
+http.liucheng.secretkey=password@123
+
+#file download url
+http.file.download = http://p.oa.unionpay.com/portalSupervisionService/file/downLoadFile?fileId=
+
+#短信平台定时发送
+Scheduled.time = 0/5 * * * * ?
+
+#服务中心附件上传地址
+upload-url=F:/trs/bankunion/flowchat/pic
+upload-temp-url=F:/trs/bankunion/flowchat/temp/
+#页面管理图标下载路径
+http.pager.doenload = http://p.oa.unionpay.com/portalSupervisionService/voiceFile/downLoadFile?unid=
+#连接wcm数据库
+wcm.datasource.url=jdbc:mysql://172.18.43.132:60001/wcmtest?useUnicode=true&characterEncoding=utf-8
+wcm.datasource.driverClassName=com.mysql.jdbc.Driver
+wcm.datasource.username=mysqlproxy
+wcm.datasource.password=proxy_db!36,
+#栏目树之siteid
+wcm.wcmchannel.siteid = 4

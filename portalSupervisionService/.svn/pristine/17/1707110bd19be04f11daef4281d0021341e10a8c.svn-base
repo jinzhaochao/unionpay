@@ -1,0 +1,32 @@
+#server
+server.servlet.contextPath=/portalSupervisionService
+#环境配置 dev;test;prd
+spring.profiles.active=test
+
+#是否启动定时
+application.scheduled.isRun=false
+
+spring.thymeleaf.cache=false
+spring.datasource.driverClassName=com.mysql.jdbc.Driver
+spring.datasource.username=mysqlproxy
+spring.datasource.password=proxy_db!36,
+spring.jpa.show-sql=true
+
+#logback
+logging.file=portalSupervisionService.log
+logging.level.org.springframework=INFO
+
+#file
+# 最大支持文件大小
+spring.servlet.multipart.max-file-size =100MB
+# 最大支持请求大小
+spring.servlet.multipart.max-request-size =100MB
+file.mine.type=doc/docx/xls/xlsx/ppt/pptx/pdf/txt/jpg/jpeg/jpe/jfif/tiff/tif/gif/png/bmp/ico/eml/rar/zip/7z
+
+# 服务中心附件
+# 最大支持请求大小
+flow-chat.max-size =100MB
+flow-chat.type=doc/docx/xls/xlsx/ppt/pptx/pdf/txt/jpg/jpeg/jpe/jfif/tiff/tif/gif/png/bmp/ico/eml/psd/rar/zip/7z
+
+#XSS拦截
+xxsFilter.xssExclusionsUrl="/static/*,*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid,/druid/*"

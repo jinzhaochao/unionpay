@@ -1,0 +1,112 @@
+package com.unionpay.pager.dto;
+
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import java.util.List;
+
+public class RequireInfoDto {
+    private Integer id;
+    @NotNull
+    private Byte businessType;
+    @NotNull
+    private Byte productType;
+    @NotNull
+    private Byte priceType;
+    @NotBlank
+    private String priceAndAlgorithm;
+    @NotBlank
+    private String materialAndRequire;
+    @NotBlank
+    private String launchMode;
+    @NotBlank
+    private String contactInfo;
+    @NotNull
+    private List<Integer> mccIds;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Byte getBusinessType() {
+        return businessType;
+    }
+
+    public void setBusinessType(Byte businessType) {
+        this.businessType = businessType;
+    }
+
+    public Byte getProductType() {
+        return productType;
+    }
+
+    public void setProductType(Byte productType) {
+        this.productType = productType;
+    }
+
+    public Byte getPriceType() {
+        return priceType;
+    }
+
+    public void setPriceType(Byte priceType) {
+        this.priceType = priceType;
+    }
+
+    public String getPriceAndAlgorithm() {
+        return priceAndAlgorithm;
+    }
+
+    public void setPriceAndAlgorithm(String priceAndAlgorithm) {
+        this.priceAndAlgorithm = priceAndAlgorithm;
+    }
+
+    public String getMaterialAndRequire() {
+        return materialAndRequire;
+    }
+
+    public void setMaterialAndRequire(String materialAndRequire) {
+        this.materialAndRequire = materialAndRequire;
+    }
+
+    public String getLaunchMode() {
+        return launchMode;
+    }
+
+    public void setLaunchMode(String launchMode) {
+        this.launchMode = launchMode;
+    }
+
+    public String getContactInfo() {
+        return contactInfo;
+    }
+
+    public void setContactInfo(String contactInfo) {
+        this.contactInfo = contactInfo;
+    }
+
+    public List<Integer> getMccIds() {
+        return mccIds;
+    }
+
+    public void setMccIds(List<Integer> mccIds) {
+        this.mccIds = mccIds;
+    }
+
+    @Override
+    public String toString() {
+        return "RequireInfoDto{" +
+                "id=" + id +
+                ", businessType=" + businessType +
+                ", productType=" + productType +
+                ", priceType=" + priceType +
+                ", priceAndAlgorithm=" + priceAndAlgorithm +
+                ", materialAndRequire=" + materialAndRequire +
+                ", launchMode=" + launchMode +
+                ", contactInfo=" + contactInfo +
+                ", mccIds=" + mccIds +
+                '}';
+    }
+}

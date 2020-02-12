@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/portalSupervisionService.iml" filepath="$PROJECT_DIR$/portalSupervisionService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supervision-common/supervision-common.iml" filepath="$PROJECT_DIR$/supervision-common/supervision-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supervision-web/supervision-web.iml" filepath="$PROJECT_DIR$/supervision-web/supervision-web.iml" />
+    </modules>
+  </component>
+</project>
